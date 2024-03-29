@@ -17,6 +17,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="admin3lte/plugins/fontawesome-free/css/all.min.css" />
     <!-- Theme style -->
     <link rel="stylesheet" href="admin3lte/dist/css/adminlte.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -176,7 +179,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="brand-link">
                 <img src="admin3lte/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
                     class="brand-image img-circle elevation-3" style="opacity: 0.8" />
-                <span class="brand-text font-weight-light">Dashboard</span>
+                <span class="brand-text font-weight-light">New Product</span>
             </a>
 
             <!-- Sidebar -->
@@ -214,19 +217,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <a href="#" class="nav-link active">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
-                                    Dashboard
+                                    New Product
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active">
+                                    <a href="dashboard.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Dashboard</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="newproduct.html" class="nav-link">
+                                    <a href="#" class="nav-link active">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>New Product</p>
                                     </a>
@@ -256,13 +259,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Starter Page</h1>
+                            <h1 class="m-0">New Product Page</h1>
                         </div>
                         <!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Dashboard</li>
+                                <li class="breadcrumb-item active">New Product</li>
                             </ol>
                         </div>
                         <!-- /.col -->
@@ -276,73 +279,66 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Main content -->
             <div class="content">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6">
+                    <div class="row row-cols-1 row-cols-md-4 g-4 py-5">
+                        <div class="col">
                             <div class="card">
+                                <img src="assets/img/product/rengginang.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-
-                                    <p class="card-text">
-                                        Some quick example text to build on the card title and
-                                        make up the bulk of the card's content.
-                                    </p>
-
-                                    <a href="#" class="card-link">Card link</a>
-                                    <a href="#" class="card-link">Another link</a>
+                                    <h5 class="card-title fw-bold">Rengginang</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quidem, nostrum?</p>
                                 </div>
-                            </div>
-
-                            <div class="card card-primary card-outline">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-
-                                    <p class="card-text">
-                                        Some quick example text to build on the card title and
-                                        make up the bulk of the card's content.
-                                    </p>
-                                    <a href="#" class="card-link">Card link</a>
-                                    <a href="#" class="card-link">Another link</a>
-                                </div>
-                            </div>
-                            <!-- /.card -->
-                        </div>
-                        <!-- /.col-md-6 -->
-                        <div class="col-lg-6">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5 class="m-0">Featured</h5>
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-title">Special title treatment</h6>
-
-                                    <p class="card-text">
-                                        With supporting text below as a natural lead-in to
-                                        additional content.
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-
-                            <div class="card card-primary card-outline">
-                                <div class="card-header">
-                                    <h5 class="m-0">Featured</h5>
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-title">Special title treatment</h6>
-
-                                    <p class="card-text">
-                                        With supporting text below as a natural lead-in to
-                                        additional content.
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="d-flex justify-content-around mb-3">
+                                    <h3>Rp. 25.000</h3>
+                                    <button class="btn btn-primary">Beli</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- /.col-md-6 -->
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/img/product/tapai.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Tapai Singkong</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quidem, nostrum?</p>
+                                </div>
+                                <div class="d-flex justify-content-around mb-3">
+                                    <h3>Rp. 20.000</h3>
+                                    <button class="btn btn-primary">Beli</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/img/product/biji-ketapang.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Biji Ketapang</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quidem, nostrum?</p>
+                                </div>
+                                <div class="d-flex justify-content-around mb-3">
+                                    <h3>Rp. 20.000</h3>
+                                    <button class="btn btn-primary">Beli</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/img/product/bika-ambon.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Bika Ambon</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                                        dolorem?</p>
+                                </div>
+                                <div class="d-flex justify-content-around mb-3">
+                                    <h3>Rp. 30.000</h3>
+                                    <button class="btn btn-primary">Beli</button>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <!-- /.row -->
                 </div>
-                <!-- /.container-fluid -->
             </div>
             <!-- /.content -->
         </div>
@@ -367,6 +363,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
             All rights reserved.
         </footer>
+
     </div>
     <!-- ./wrapper -->
 
