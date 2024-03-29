@@ -30,3 +30,10 @@
 h3, h5 {
     color: rgb(0, 91, 228);
 }
+
+.konten {
+    display: flex;
+    overflow-y: scroll;
+    /* Membuat konten dapat di-scroll secara vertikal */
+    max-height: 100vh;
+}
